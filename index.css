@@ -1,0 +1,86 @@
+body{
+    font-family: "Times New Roman", Times, serif;
+    background :url('https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.logo
+{
+    width:8%;
+}
+.btn
+{
+    padding: 8px 15px;
+    color:#ffff;
+    background-color: #e50914;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 9px;
+}
+#nav
+{
+    padding-top: 5px;
+    padding-left: 2vw;
+    padding-right: 5vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+select{
+    margin-left:70%;
+    padding: 9px ;
+    border-radius: 5px;
+}
+#details
+{
+    color: #fff;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 30%;
+
+}
+#details h1{
+    font-size: 50px;
+}
+#details  h2{
+    font-size: 30px;
+}
+.class
+{
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    background-color: #fff;
+    justify-content: space-between;
+    display: flex;
+
+}
+.mailid input{
+    outline: none;
+    border: none;
+    padding: 10px 9px;
+    size: 2em;
+    width: 67%;
+    margin: 1.5rem 0 0;
+    background-color: transparent;
+    border: 0.2px solid #fff;
+    border-radius: 6px;
+    box-shadow:0 0 2px #ffffffdb;
+}
+
+.mailid a{
+    height: fit-content;
+    background-color: #e50914;
+    color: #ffffffcb;
+    padding: 11px 10px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.input{
+    color:white;
+}
